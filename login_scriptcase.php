@@ -1,3 +1,4 @@
+<?php
 //conecção
 $conn = mysqli_connect('localhost', 'root', '', 'academia_point');
     // Código a ser executado se o método de requisição for POST
@@ -24,3 +25,4 @@ if (mysqli_num_rows($result) > 0) {
 } else {
 	sc_error_message("Usuario ou Senha invalidos");
 };
+?>
